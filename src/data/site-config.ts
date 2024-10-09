@@ -25,7 +25,6 @@ export type SiteConfig = {
     headerNavLinks?: Link[];
     footerNavLinks?: Link[];
     socialLinks?: Link[];
-    hero?: Hero;
     projectsPerPage?: number;
 };
 
@@ -87,8 +86,6 @@ const siteConfig: SiteConfig = {
             href: 'https://www.linkedin.com/in/martin-otis-575a09b/'
         }
     ],
-
-    projectsPerPage: 8
 };
 
 export default siteConfig;

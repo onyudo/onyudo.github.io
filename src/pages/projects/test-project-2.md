@@ -1,12 +1,12 @@
 ---
 title: 'EcoBuddy: Sustainable Living App'
 description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
-publishDate: 'Jan 02 2024'
+publishDate: 'Jan 03 2024'
 ---
 
 **Note:** This case study is entirely fictional.
 
-**Project 1 Overview:**
+**Project 2 Overview:**
 EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
 
 ## Objectives

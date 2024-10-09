@@ -1,0 +1,19 @@
+---
+import siteConfig from '../data/site-config';
+
+const navLinks = siteConfig.headerNavLinks || [];
+---
+
+<nav>
+    {
+        navLinks.length > 0 && (
+            <div>
+                {navLinks.map((link) => (
+                    <a href={link.href}>
+                        {link.text}
+                    </a>
+                ))}
+            </div>
+        )
+    }
+</nav>

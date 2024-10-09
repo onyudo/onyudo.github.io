@@ -1,0 +1,44 @@
+---
+import siteConfig from '../data/site-config';
+
+const socialLinks = siteConfig.socialLinks || [];
+const navLinks = siteConfig.footerNavLinks || [];
+---
+
+<footer>
+    {
+        navLinks.length > 0 && (
+            <div>
+                {navLinks.map((link) => (
+                    <a href={link.href}>
+                        {link.text}
+                    </a>
+                ))}
+            </div>
+        )
+    }
+    <div
+        class:list={[
+            { 'sm:flex-row-reverse sm:justify-between sm:items-center': socialLinks.length > 0 }
+        ]}
+    >
+        {
+            socialLinks.length > 0 && (
+                <div>
+                    {socialLinks.map((link) => (
+                        <a
+                            href={link.href}
+                            target="_blank"
+                            rel="noopener noreferer"
+                        >
+                            {link.text}
+                        </a>
+                    ))}
+                </div>
+            )
+        }
+        <p>
+            &copy; {new Date().getFullYear()}&nbsp;<a href="/">{siteConfig.title}</a>. All rights reserved.
+        </p>
+    </div>
+</footer>

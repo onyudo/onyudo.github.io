@@ -1,4 +1,8 @@
 ---
+import '../styles/global.css';
+import Footer from '../components/Footer.astro';
+import Nav from '../components/Nav.astro';
+
 const pageTitle = "Projects";
 ---
 
@@ -8,13 +12,18 @@ const pageTitle = "Projects";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>The Portfolio of Martin Otis</title>
+		<title>Martin Otis | {pageTitle}</title>
 	</head>
 	<body>
-        <a href="/">Home</a>
-  		<a href="/about/">About</a>
-  		<a href="/projects/">Projects</a>
-		<a href="/resume/">Resume</a>
-		<h1>Projects</h1>
+    	<Nav />
+		<main>
+			<h1>Projects</h1>
+			<ul>
+				<li><a href="./test-project">Test Project 1</a></li>
+				<li><a href="./test-project-2">Test Project 2</a></li>
+				<li><a href="./test-project-3">Test Project 3</a></li>
+			</ul>
+		</main>
+		<Footer />
 	</body>
 </html>
