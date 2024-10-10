@@ -91,14 +91,18 @@ footer p a:hover {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
-
+  .mainNav, main, .footerNav, footer p {
+    margin-left: 5em;
+  }
 
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-
+  .mainNav, main, .footerNav, footer p {
+    margin-left: em;
+  }
 
 } 
 
