@@ -17,12 +17,7 @@ const navLinks = siteConfig.footerNavLinks || [];
             </div>
         )
     }
-    <div
-        class:list={[
-            { 'sm:flex-row-reverse sm:justify-between sm:items-center': socialLinks.length > 0 }
-        ]}
-    >
-        {
+    {
             socialLinks.length > 0 && (
                 <div>
                     {socialLinks.map((link) => (
@@ -36,7 +31,7 @@ const navLinks = siteConfig.footerNavLinks || [];
                     ))}
                 </div>
             )
-        }
+    }
         <p>
             &copy; {new Date().getFullYear()}&nbsp;<a href="/">{siteConfig.title}</a>. All rights reserved.
         </p>
