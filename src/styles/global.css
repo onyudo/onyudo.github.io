@@ -101,7 +101,7 @@ footer p a:hover {
 @media only screen and (min-width: 992px) {
 
   .mainNav, main, .footerNav, footer p {
-    margin-left: em;
+    margin-left: 5em;
   }
 
 } 
