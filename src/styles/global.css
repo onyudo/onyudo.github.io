@@ -1,31 +1,109 @@
 html {
     background-color: #ffffff;
     font-family: sans-serif;
-  }
+}
 
-  /* Main Navigation */
-  nav div.mainNav a {
+/* Main Navigation */
+.mainNav {
+  margin-left: 5em;
+}
+
+.mainNav a {
     padding-right: 1.5rem;
-  }
+    text-decoration: none;
+    text-align: center;
+}
+
+.mainNav a:hover {
+    text-decoration: underline;
+}
+
+.expanded {
+  display: unset;
+}
   
-  body {
+body {
     margin: 0 auto;
     width: 100%;
     max-width: 80rem;
     padding: 1rem;
     line-height: 1.5;
-  }
+}
   
-  * {
+* {
     box-sizing: border-box;
-  }
+}
+
+main {
+  margin-left: 5em;
+}
   
-  h1 {
+h1 {
     margin: 1rem 0;
     font-size: 2.5rem;
+}
+
+/* Footer Navigation */
+.footerNav {
+  margin-left: 5em;
+}
+
+.footerNav a {
+    padding-right: 1.5rem;
+    text-decoration: none;
+}
+
+.footerNav a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin-left: 5em;;
+}
+
+footer p a {
+  text-decoration: none;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .mainNav, main, .footerNav, footer p {
+    margin-left: 1em;
   }
 
-    /* Footer Navigation */
-    footer div.footerNav a {
-      padding-right: 1.5rem;
-    }
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+
+}
