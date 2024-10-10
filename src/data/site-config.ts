@@ -1,21 +1,3 @@
-export type Image = {
-    src: string;
-    alt?: string;
-    caption?: string;
-};
-
-export type Link = {
-    text: string;
-    href: string;
-};
-
-export type Hero = {
-    title?: string;
-    text?: string;
-    image?: Image;
-    actions?: Link[];
-};
-
 export type SiteConfig = {
     logo?: Image;
     title: string;
@@ -25,7 +7,6 @@ export type SiteConfig = {
     headerNavLinks?: Link[];
     footerNavLinks?: Link[];
     socialLinks?: Link[];
-    projectsPerPage?: number;
 };
 
 const siteConfig: SiteConfig = {
@@ -78,12 +59,12 @@ const siteConfig: SiteConfig = {
             href: 'https://github.com/onyudo/'
         },
         {
-            text: 'Instagram',
-            href: 'https://www.instagram.com/tastydecoy/'
-        },
-        {
             text: 'LinkedIn',
             href: 'https://www.linkedin.com/in/martin-otis-575a09b/'
+        },
+        {
+            text: 'Instagram',
+            href: 'https://www.instagram.com/tastydecoy/'
         }
     ],
 };
