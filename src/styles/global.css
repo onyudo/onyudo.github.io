@@ -18,7 +18,6 @@ html {
     text-decoration: underline;
 }
 
-/*
 .hamburger {
   display: none;
   padding-right: 20px;
@@ -31,7 +30,7 @@ html {
   height: 3px;
   margin-bottom: 5px;
   background-color: #000000;
-} */
+}
 
 .expanded {
   display: unset;
@@ -88,8 +87,13 @@ footer p a:hover {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-  .mainNav, .hamburger, main, .footerNav, footer p {
+  .mainNav, main, .footerNav, footer p {
     margin-left: 1em;
+  }
+
+  .hamburger {
+    margin-left: 1em;
+    display: block;
   }
 
 } 
