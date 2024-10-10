@@ -77,13 +77,14 @@ footer p a:hover {
     margin-left: 1em;
   }
 
-
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-
+  .mainNav, main, .footerNav, footer p {
+    margin-left: 1em;
+  }
 
 } 
 
