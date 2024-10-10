@@ -2,24 +2,12 @@
 import siteConfig from '../data/site-config';
 
 const socialLinks = siteConfig.socialLinks || [];
-const navLinks = siteConfig.footerNavLinks || [];
 ---
 
 <footer>
     {
-        navLinks.length > 0 && (
-            <div>
-                {navLinks.map((link) => (
-                    <a href={link.href}>
-                        {link.text}
-                    </a>
-                ))}
-            </div>
-        )
-    }
-    {
             socialLinks.length > 0 && (
-                <div>
+                <div class="footerNav">
                     {socialLinks.map((link) => (
                         <a
                             href={link.href}

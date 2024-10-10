@@ -2,6 +2,11 @@ html {
     background-color: #ffffff;
     font-family: sans-serif;
   }
+
+  /* Main Navigation */
+  nav div.mainNav a {
+    padding-right: 1.5rem;
+  }
   
   body {
     margin: 0 auto;
@@ -19,3 +24,8 @@ html {
     margin: 1rem 0;
     font-size: 2.5rem;
   }
+
+    /* Footer Navigation */
+    footer div.footerNav a {
+      padding-right: 1.5rem;
+    }
