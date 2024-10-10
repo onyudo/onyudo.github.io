@@ -18,6 +18,21 @@ html {
     text-decoration: underline;
 }
 
+/*
+.hamburger {
+  display: none;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: #000000;
+} */
+
 .expanded {
   display: unset;
 }
@@ -73,7 +88,7 @@ footer p a:hover {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-  .mainNav, main, .footerNav, footer p {
+  .mainNav, .hamburger, main, .footerNav, footer p {
     margin-left: 1em;
   }
 
@@ -82,7 +97,7 @@ footer p a:hover {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-  .mainNav, main, .footerNav, footer p {
+  .mainNav, .hamburger, main, .footerNav, footer p {
     margin-left: 1em;
   }
 
@@ -91,7 +106,7 @@ footer p a:hover {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
-  .mainNav, main, .footerNav, footer p {
+  .mainNav, .hamburger, main, .footerNav, footer p {
     margin-left: 5em;
   }
 
@@ -100,7 +115,7 @@ footer p a:hover {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-  .mainNav, main, .footerNav, footer p {
+  .mainNav, .hamburger, main, .footerNav, footer p {
     margin-left: 5em;
   }
 
