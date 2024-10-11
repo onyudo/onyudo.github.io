@@ -4,37 +4,49 @@ html {
 }
 
 /* Main Navigation */
-.mainNav {
-  margin-left: 5em;
+.nav-container {
+  margin-left: 1em;
 }
 
-.mainNav a {
+.nav-links {
+    width: 100%;
+    top: 5rem;
+    display: none;
+    margin: 0;
+}
+
+.nav-links a {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     padding-right: 1.5rem;
+    display: block;
+    text-align: left;
     text-decoration: none;
-    text-align: center;
 }
 
-.mainNav a:hover {
+.nav-links a:hover,
+.nav-links a:focus {
     text-decoration: underline;
 }
 
+.expanded {
+    display: unset;
+}
+
 .hamburger {
-  display: none;
-  padding-right: 20px;
-  cursor: pointer;
+    margin-left: 1em;
+    padding-right: 20px;
+    cursor: pointer;
 }
 
 .hamburger .line {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin-bottom: 5px;
-  background-color: #000000;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: #000000;
 }
-
-.expanded {
-  display: unset;
-}
+/* End Main Navigation */
   
 body {
     margin: 0 auto;
@@ -49,7 +61,7 @@ body {
 }
 
 main {
-  margin-left: 5em;
+    margin-left: 1em;
 }
   
 h1 {
@@ -59,7 +71,7 @@ h1 {
 
 /* Footer Navigation */
 .footerNav {
-  margin-left: 5em;
+    margin-left: 1em;
 }
 
 .footerNav a {
@@ -68,66 +80,37 @@ h1 {
 }
 
 .footerNav a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 footer p {
-  margin-left: 5em;;
+    margin-left: 1em;;
 }
 
 footer p a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 footer p a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* Media Queries */
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media screen and (min-width: 636px) {
 
-  .mainNav, main, .footerNav, footer p {
-    margin-left: 1em;
-  }
+    .nav-links {
+      display: block;
+      position: static;
+      width: auto;
+      background: none;
+    }
 
-  .hamburger {
-    margin-left: 1em;
-    display: block;
-  }
+    .nav-links a {
+      display: inline-block;
+    }
 
-} 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-  .mainNav, .hamburger, main, .footerNav, footer p {
-    margin-left: 1em;
-  }
-
-} 
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-  .mainNav, .hamburger, main, .footerNav, footer p {
-    margin-left: 5em;
-  }
-
-} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-  .mainNav, .hamburger, main, .footerNav, footer p {
-    margin-left: 5em;
-  }
-
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-
+    .hamburger {
+      display: none;
+    }
 
 }

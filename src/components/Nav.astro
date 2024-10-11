@@ -4,10 +4,10 @@ import siteConfig from '../data/site-config';
 const navLinks = siteConfig.headerNavLinks || [];
 ---
 
-<nav>
+<div class="nav-container">
     {
         navLinks.length > 0 && (
-            <div class="mainNav">
+            <div class="nav-links">
                 {navLinks.map((link) => (
                     <a href={link.href}>
                         {link.text}
@@ -16,4 +16,4 @@ const navLinks = siteConfig.headerNavLinks || [];
             </div>
         )
     }
-</nav>
+</div>
