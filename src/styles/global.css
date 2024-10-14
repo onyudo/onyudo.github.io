@@ -4,6 +4,7 @@ html {
 }
 
 /* Main Navigation */
+
 .nav-container {
   margin-left: 1em;
 }
@@ -46,7 +47,29 @@ html {
     margin-bottom: 5px;
     background-color: #000000;
 }
+
+button#themeToggle {
+    float: right;
+}
+
 /* End Main Navigation */
+
+/* Dark Mode Styles */
+
+html.dark {
+    background-color: #000000;
+    color: #fff;
+}
+  
+.dark a {
+    color: #fff;
+}
+
+.dark .hamburger .line {
+    background-color: #ffffff;
+}
+
+/* Dark Mode Styles */
   
 body {
     margin: 0 auto;
