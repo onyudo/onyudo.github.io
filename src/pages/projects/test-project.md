@@ -4,6 +4,7 @@ title: 'EcoBuddy: Sustainable Living App'
 author: 'Martin Otis'
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 publishDate: 'Jan 02 2024'
+tags: ["astro", "WordPress", "CSS"]
 ---
 
 **Note:** This case study is entirely fictional.
