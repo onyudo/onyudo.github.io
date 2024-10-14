@@ -6,6 +6,6 @@ const pageTitle = "Projects";
 ---
 <BaseLayout pageTitle={pageTitle}>
 	<ul>
-		{allProjects.map((project) => <BlogProject url={project.url} title={project.frontmatter.title} />)}
+		{allProjects.map((project) => <BlogProject url={project.url} title={project.frontmatter.title}  description={project.frontmatter.description}/> )}
 	</ul>
 </BaseLayout>
