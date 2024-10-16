@@ -48,6 +48,22 @@ html {
     background-color: #000000;
 }
 
+.bar {
+    transition: transform 0.3s ease;
+}
+  
+.hamburger.active .bar:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+  
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+  
+.hamburger.active .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
 button#themeToggle {
     float: right;
     padding-top: 2em;
