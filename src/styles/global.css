@@ -50,6 +50,8 @@ html {
 
 button#themeToggle {
     float: right;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 /* End Main Navigation */
