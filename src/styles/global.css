@@ -112,7 +112,40 @@ h1 {
     font-size: 2.5rem;
 }
 
+/* Project Pages Styles */
+
+h1.project-title {
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+h3.project-blurb {
+    text-transform: uppercase;
+    font-size: 0.85em;
+    margin-top: 0;
+}
+
+h4.scope {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+ul.project-scope {
+    padding-inline-start: 0;
+    margin-top: 0;
+}
+
+li.scope-list {
+    font-style: italic;
+}
+
 /* Footer Navigation */
+
+footer {
+    margin-top: 5em;
+}
+
 .footerNav {
     margin-left: 1em;
 }
