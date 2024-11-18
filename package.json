@@ -10,7 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@shoelace-style/shoelace": "^2.18.0",
     "astro": "^4.16.6",
-    "astro-splide": "^1.0.0"
+    "astro-splide": "^1.0.0",
+    "rollup-plugin-copy": "^3.5.0"
   }
 }
