@@ -39,6 +39,7 @@ src="/images/slide-3.jpg"
 </sl-carousel>
 </div>
 
+
 <div class="project-info">
  <p class="project-description">Pernod Ricard USA is the premium spirits and wine company in the United States, and the largest subsidiary of Paris-based Pernod Ricard SA. The online Asset Library for their Wines and Champagnes division provides sales critical product information directly to their distribution channels. The mobile ready site also ensures that their products have a successful route-to-market anywhere in the field. The site was built with WordPress and has over 2,500 active users, aggregated across 5 user tiers with various levels of secure content.</p>
 
