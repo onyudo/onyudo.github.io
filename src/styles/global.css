@@ -114,6 +114,29 @@ h1 {
 
 /* Project Pages Styles */
 
+/*.project-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+.project-slideshow {
+    grid-column: 1; 
+    grid-row: 1 / span 2; 
+    height: fit-content;
+}
+
+.project-title {
+    grid-column: 2;
+    grid-row: 1; 
+    height: fit-content;
+}
+
+.project-description {
+    grid-column: 2;
+    grid-row: 2;
+} */
+
 h1.project-title {
     text-transform: uppercase;
     font-size: 3em;
@@ -139,6 +162,11 @@ ul.project-scope {
 li.scope-list {
     font-style: italic;
 }
+
+/* Slider Styles */
+
+
+
 
 /* Footer Navigation */
 
