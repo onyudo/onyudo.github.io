@@ -17,7 +17,7 @@ tags: ["WordPress Development", "Design Direction", "UI Design", "SQL", "Email M
 <div class="project-slideshow">
 
 
-<sl-carousel class="aspect-ratio" pagination style="--aspect-ratio: 1/1;">
+<sl-carousel class="aspect-ratio" pagination style="--aspect-ratio: 80/101;">
 <sl-carousel-item>
 <img
 alt="Flightsong brand page on the PRUSA Wines & Champagnes Asset Library"
