@@ -114,6 +114,10 @@ h1 {
 
 /* Project Pages Styles */
 
+main h1 {
+  display: none;
+}
+
 /*.project-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -141,6 +145,7 @@ h1.project-title {
     text-transform: uppercase;
     font-size: 3em;
     margin-bottom: 0;
+    display: inline;
 }
 
 h3.project-blurb {
