@@ -5,6 +5,7 @@ const allProjects = await Astro.glob('./projects/*.md');
 const pageTitle = "Projects";
 ---
 <BaseLayout pageTitle={pageTitle}>
+	<h2>Projects</h2>
 	<ul>
 		{allProjects.map((project) => <BlogProject url={project.url} title={project.frontmatter.title}  description={project.frontmatter.description}/> )}
 	</ul>
