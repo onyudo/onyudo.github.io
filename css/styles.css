@@ -8,14 +8,17 @@
 
 /* Media Queries begin here */
 
+/* Tablets and Larger Smartphones */
 @media screen and (min-width: 481px) and (max-width: 769px) {
 
 }
 
+/* Laptops, Larger Tablets in Landscape and Small Desktops */
 @media screen and (min-width: 769px) and (max-width: 1279px) {
 
 }
 
+/* Larger Desktops and Monitors */
 @media screen and (min-width: 1280px) {
 
 }
