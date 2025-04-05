@@ -1,12 +1,26 @@
 @import url("./reset.css");
 
+/* Global Styles */
 
 
 
+    /* Header Styles */
 
 
 
-/* Media Queries begin here */
+    /* Navigation Styles */
+
+
+
+/* Homepage Styles */
+
+
+
+/* Footer Styles */
+
+
+
+/* Media Queries Begin Here */
 
 /* Tablets and Larger Smartphones */
 @media screen and (min-width: 481px) and (max-width: 769px) {
@@ -23,4 +37,4 @@
 
 }
 
-/* Media Queries end here */
+/* Media Queries End Here */
