@@ -37,6 +37,17 @@ html {
 /* Tablets and Larger Smartphones */
 @media screen and (min-width: 481px) and (max-width: 769px) {
 
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vertical-divider {
+        display: none;
+    }
+
 }
 
 /* Laptops, Larger Tablets in Landscape and Small Desktops */
@@ -66,6 +77,26 @@ html {
 
 /* Larger Desktops and Monitors */
 @media screen and (min-width: 1280px) {
+
+    .logo-container {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .horizontal-divider {
+        display: none;
+    }
+
+    .vertical-divider {
+        display: inline;
+        font-size: 1.65rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .tagline {
+        font-size: 1.5rem;
+    }
 
 }
 
