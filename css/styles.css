@@ -2,11 +2,23 @@
 
 /* Global Styles */
 
+html {
+    font-size: 18px;
+}
 
 
     /* Header Styles */
 
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .vertical-divider {
+        display: none;
+    }
 
     /* Navigation Styles */
 
@@ -29,6 +41,26 @@
 
 /* Laptops, Larger Tablets in Landscape and Small Desktops */
 @media screen and (min-width: 769px) and (max-width: 1279px) {
+
+    .logo-container {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .horizontal-divider {
+        display: none;
+    }
+
+    .vertical-divider {
+        display: inline;
+        font-size: 1.65rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .tagline {
+        font-size: 1.5rem;
+    }
 
 }
 
