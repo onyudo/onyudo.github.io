@@ -4,8 +4,6 @@
 const buttons = document.querySelectorAll('.filter-button');
 const items = document.querySelectorAll('.portfolio-item');
 
-// some kind of querySelector for all portoflio items?
-
 // buttons and eventListeners
 buttons.forEach(button => {
   button.addEventListener('click', function() {
